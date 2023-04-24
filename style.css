@@ -11,10 +11,10 @@
 
 nav {
     position: absolute;
-width: 445px;
-height: 39px;
-left: 1118px;
-top: 37px;
+    width: 445px;
+    height: 39px;
+    left: 1118px;
+    top: 37px;
 
 }
 
@@ -27,31 +27,82 @@ top: 37px;
     color: #FF701F;
 }
 
-content {
-    width: 500px;
-    margin: 0 auto;
+.content {
+    position: absolute;
+    width: 361px;
+    height: 112px;
+    left: 346px;
+    top: 306px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+    backdrop-filter: blur(2px);
+
 }
 
 footer {
-    
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+
 }
 
-li, ul {
-    padding: 20px;
-    display: inline;
-    color: black;
 
-    }
+
+
 
 body {
-    background-image: lnear-gradient(179.41deg, #000C17 63.56%, rgba(0, 75, 129, 0) 156.52%);
+    background-image: linear-gradient(179.41deg, #000C17 63.56%, rgba(0, 75, 129, 0) 156.52%);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+
 }
 
-html (
+html {
     height: 100%;
-)
+}
+
+.Tools {
+
+    position: absolute;
+width: 609px;
+height: 64px;
+left: 969px;
+top: 1808px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+.Skills {
+
+   
+
+    position: absolute;
+    width: 465px;
+    height: 384px;
+    left: 327px;
+    top: 1774px;
+    color: #FFFFFF;
+
+}
+
+h1 {
+    color: #FF701F;
+}
