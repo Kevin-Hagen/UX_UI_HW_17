@@ -1,22 +1,35 @@
-.inline-block {
-    display: inline-block;
-    vertical-align: text-top;
-}
-
-.logo {
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-
 nav {
-    position: absolute;
-    width: 445px;
-    height: 39px;
-    left: 1118px;
-    top: 37px;
-
+    float: right;
+    position: relative;
+    margin-right: 5%;
+font-size: 20px;
+word-spacing: 30px;
 }
+
+.hover-underline-animation {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -7px;
+    left: 0;
+    background-color: #FF701F;
+    transform-origin: middle;
+    transition: all .3s;
+   border-radius: 3px;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: middle;
+  } 
 
 .heroImg {
     position: absolute;
@@ -53,9 +66,13 @@ footer {
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
+    
 
 }
 
+ul {
+    list-style-type: none;
+}
 
 
 
@@ -76,25 +93,25 @@ html {
 .Tools {
 
     position: absolute;
-width: 609px;
-height: 64px;
-left: 969px;
-top: 1808px;
+    width: 609px;
+    height: 64px;
+    left: 969px;
+    top: 1808px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
 
 .Skills {
 
-   
+
 
     position: absolute;
     width: 465px;
